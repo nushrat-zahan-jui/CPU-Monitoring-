@@ -9,24 +9,23 @@ In this project, I developed a command-line based CPU monitor where users can ch
 I used the psutil library to collect system information such as CPU percentage and frequency. To make the output more user-friendly, I added color indicators (green, yellow, red) based on CPU usage levels. This makes it easier to quickly understand whether the CPU load is low, moderate, or high.
 
 Technologies Used:
--python 
--psutil library 
--command line interface
+python,
+psutil library,
+command line interface
 
 
 Features:
--Shows overall CPU usage
--Displays CPU frequency (current and maximum)
--Live CPU usage monitoring
--Color-coded output for better readability
+Shows overall CPU usage,
+Displays CPU frequency, 
+Live CPU usage monitoring,
+Color-coded output for better readability,
 
 
 How to Run:
--Install Python (if not installed)
--Install required library:
--pip install psutil
--Run the script:
--python CPU.py
+Install Python (if not installed),
+Install required library,
+pip install psutil,
+python CPU.py
 
 
 This project helped me understand how to work with system-level data in Python and how to create an interactive CLI-based application.
